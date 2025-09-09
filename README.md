@@ -52,55 +52,59 @@
 
 ## 🏆 Contributions
 
-- **Benchmark.** We introduce AVI-Math, the first multimodal benchmark for mathematical reasoning in UAV imagery, covering six subjects and real-world UAV scenarios.
+- **Benchmark:** We introduce AVI-Math, the first multimodal benchmark for mathematical reasoning in UAV imagery, covering six subjects and real-world UAV scenarios.
 
-- **Analysis.**  We provide a comprehensive analysis, uncovering the limitations of current VLMs in mathematical reasoning and offering insights for future improvements.
+- **Analysis:**  We provide a comprehensive analysis, uncovering the limitations of current VLMs in mathematical reasoning and offering insights for future improvements.
 
-
-- **Exploration.** We explore the potential of Chain-of-Thought prompting and fine-tuning techniques to enhance VLM performance, providing a 215k-sample instruction set for VLMs to learn domain-specific knowledge in UAV scenarios.
+- **Exploration:** We explore the potential of Chain-of-Thought prompting and fine-tuning techniques to enhance VLM performance, providing a 215k-sample instruction set for VLMs to learn domain-specific knowledge in UAV scenarios.
 
 ---
 
-## 💬 AirSpatial Dataset
+## 💬 Benchmark
 
-Word cloud visualizations of vehicle occurrence frequencies in our dataset. (a) shows the brand word cloud, where BYD ranks first. (b) illustrates the model word cloud, with Tesla Model 3 ranking first.
+Examples of six mathematical reasoning subjects in AVI-Math.
+
 <p align="center">
-  <img src="images/word_cloud.png" width=100%>
+  <img src="images/bench1.png" width=100%>
+</p>
+<p align="center">
+  <img src="images/bench2.png" width=100%>
+</p>
+
+---
+
+## 🔍 Analysis
+
+Accuracy scores on the AVI-Math. AVG: average accuracy of the six subjects. FRE: free-form question, CHO: multiple choice question, T/F: true or false question. The highest scores among models in each part and overall are highlighted in blue and red. The table exclusively employs the original model weights without fine-tuning.
+
+<p align="center">
+  <img src="images/analysis.png" width=100%>
 </p>
 
 
 ---
 
-## 🔍 Spatially-aware VLM
+## 🚀 Exploration
 
-Visualizations of AirSpatialBot on AirSpatial-G with 3DBB. The green boxes indicate ground truth, while the red boxes represent predictions.
+Chain-of-Thought and fine-tuning results on various VLMs.
 
 <p align="center">
-  <img src="images/3d_box.png" width=100%>
+  <img src="images/explore.png" width=100%>
 </p>
 
----
-
-## 🚀 Aerial Agent
-
-Workflows for Vehicle Attribute Recognition, Zero-Shot Attribute Recognition and Target Retrieval Tasks.Planner
-
-<div align="center">
-  <img src="images/tasks.png" width=100%>
-</div>
 
 
 
 ## 📜 Citation
 ```bibtex
-@ARTICLE{zhou2025airspatialbot,
-  author={Zhou, Yue and Ding, Ran and Yang, Xue and Jiang, Xue and Liu, Xingzhao},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={AirSpatialBot: A Spatially-Aware Aerial Agent for Fine-Grained Vehicle Attribute Recognization and Retrieval}, 
+@ARTICLE{zhou2025avimath,
+  author={Zhou, Yue and Feng, Litong and Lan, Mengcheng and Yang, Xue and Li, Qingyun and Ke, Yiping and Jiang, Xue and Zhang, Wayne},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing}, 
+  title={Multimodal Mathematical Reasoning Embedded in Aerial Vehicle Imagery: Benchmarking, Analysis, and Exploration}, 
   year={2025},
   volume={},
   number={},
-  pages={1-1},
-  doi={10.1109/TGRS.2025.3570895}
+  pages={},
+  doi={}
 }
 ```
