@@ -44,7 +44,7 @@
 <div align="center">
   <img src="images/cat.png" width=50%>
   <div style="display: inline-block; color: #999; padding: 2px;">
-      Question types covered by AVI-Math. ARI: arithmetic, CNT: counting, ALG: algebra, STA: statistics, LOG: logic, GEO: geometry.
+      ARI: arithmetic, CNT: counting, ALG: algebra, STA: statistics, LOG: logic, GEO: geometry.
   </div>
 </div>
 
