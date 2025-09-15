@@ -33,8 +33,7 @@
 
 ## 📢 Latest Updates
 
-- We will upload the evaluation code as soon as possible.
-- **[2025.09.15]** We released the arXiv paper and benchmark.
+- **[2025.09.15]** We released the benchmark and evaluation code.
 - **[2025.09.08]** Accepted by ISPRS JPRS.
 
 ---
@@ -72,6 +71,9 @@ Examples of six mathematical reasoning subjects in AVI-Math.
 <p align="center">
   <img src="images/bench2.png" width=100%>
 </p>
+
+Please refer to the code in the evaluation to infer and evaluate the score.
+
 
 ---
 
