@@ -69,7 +69,7 @@ def generate_response(row, source_dir, target_dir, vqa_processed):
 
     base64_image = encode_image(source_dir + row['image'])
 
-    api_key="sk-proj-W0GS1sPAKQRvhzSWXkNyT3BlbkFJZQJEJLct7vmV90NI3xiD"
+    api_key="sk-proj-xxx"
     headers = {
           "Content-Type": "application/json",
           "Authorization": f"Bearer {api_key}"
