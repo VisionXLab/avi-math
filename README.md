@@ -72,8 +72,7 @@ Examples of six mathematical reasoning subjects in AVI-Math.
   <img src="images/bench2.png" width=100%>
 </p>
 
-Please refer to the code in the evaluation to infer and evaluate the score.
-
+Please download the [dataset](https://huggingface.co/datasets/erenzhou/AVI-Math) first and then refer to the code in the evaluation to infer and evaluate the score.
 
 ---
 
