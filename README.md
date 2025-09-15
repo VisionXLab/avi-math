@@ -19,8 +19,9 @@
     <sup>5</sup>Harbin Institute of Technology&emsp; 
 </div>
 
+[![Paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](http://arxiv.org/abs/2509.10059)
 [![Paper](https://img.shields.io/badge/ISPRS_JPRS-Paper-orange.svg)](https://xxx)
-[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/erenzhou/avi-math)
+[![Dataset](https://img.shields.io/badge/HuggingFace-Dataset-yellow)](https://huggingface.co/datasets/erenzhou/AVI-Math)
 
 </div>
 
@@ -32,7 +33,8 @@
 
 ## 📢 Latest Updates
 
-- **[2025.0x.xx]** We released the benchmark and evaluation code.
+- We will upload the evaluation code as soon as possible.
+- **[2025.09.15]** We released the arXiv paper and benchmark.
 - **[2025.09.08]** Accepted by ISPRS JPRS.
 
 ---
@@ -108,3 +110,6 @@ Chain-of-Thought and fine-tuning results on various VLMs.
   doi={}
 }
 ```
+
+## Contact
+yzhou@geoai.ecnu.edu.cn
