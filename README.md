@@ -105,10 +105,8 @@ Chain-of-Thought and fine-tuning results on various VLMs.
   journal={ISPRS Journal of Photogrammetry and Remote Sensing}, 
   title={Multimodal Mathematical Reasoning Embedded in Aerial Vehicle Imagery: Benchmarking, Analysis, and Exploration}, 
   year={2025},
-  volume={},
-  number={},
-  pages={},
-  doi={}
+  volume = {230},
+  pages = {289-303}
 }
 ```
 
